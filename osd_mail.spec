@@ -3,13 +3,12 @@
 Summary:	OSD mail notifier
 Summary(pl):	Powiadamianie o poczcie poprzez OSD
 Name:		osd_mail
-Version:	0.2
+Version:	0.3
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.hellion.org.uk/source/%{name}-%{version}.tar.gz
-Patch0:		%{name}-DESTDIR.patch
-URL:		http://www.hellion.org.uk/osd_mail.html
+URL:		http://www.hellion.org.uk/osd_mail/
 BuildRequires:	XFree86-devel
 BuildRequires:	xosd-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -26,7 +25,6 @@ na ekranie nazwy tych, w których jest nowa poczta.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__make}
