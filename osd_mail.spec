@@ -8,6 +8,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.hellion.org.uk/source/%{name}-%{version}.tar.gz
+# Source0-md5:	be1e7f947342c01259c84e9b980b8bed
 URL:		http://www.hellion.org.uk/osd_mail/
 BuildRequires:	XFree86-devel
 BuildRequires:	xosd-devel
