@@ -3,7 +3,7 @@
 Summary:	OSD mail notifier
 Summary(pl):	Powiadamianie o poczcie poprzez OSD
 Name:		osd_mail
-Version:	0.3
+Version:	0.6
 Release:	1
 License:	GPL
 Group:		X11/Applications
