@@ -13,7 +13,6 @@ BuildRequires:	XFree86-devel
 BuildRequires:	xosd-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 osd_mail watches a set of mbox style mail boxes for new mail and
