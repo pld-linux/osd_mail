@@ -1,7 +1,7 @@
 # TODO:
 # - desktop file and icons
 Summary:	OSD mail notifier
-Summary(pl.UTF-8):   Powiadamianie o poczcie poprzez OSD
+Summary(pl.UTF-8):	Powiadamianie o poczcie poprzez OSD
 Name:		osd_mail
 Version:	0.6
 Release:	1
